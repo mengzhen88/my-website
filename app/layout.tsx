@@ -2,18 +2,21 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "YOUR NAME — 个人网站",
-  description: "设计师与创作者的个人主页：作品、思考和生活切片。",
+  title: "邵梦贞 — 产品设计师",
+  description:
+    "邵梦贞的个人主页：Lark Design · APaaS 产品设计师，6 年产品设计经验。",
   openGraph: {
-    title: "YOUR NAME — 个人网站",
-    description: "设计师与创作者的个人主页：作品、思考和生活切片。",
-    images: ["/og-editorial.png"],
+    title: "邵梦贞 — 产品设计师",
+    description:
+      "Lark Design · APaaS 产品设计师，关注复杂 B 端、AI 产品与用户体验。",
+    images: ["/og-shao-mengzhen.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "YOUR NAME — 个人网站",
-    description: "设计师与创作者的个人主页：作品、思考和生活切片。",
-    images: ["/og-editorial.png"],
+    title: "邵梦贞 — 产品设计师",
+    description:
+      "Lark Design · APaaS 产品设计师，关注复杂 B 端、AI 产品与用户体验。",
+    images: ["/og-shao-mengzhen.png"],
   },
 };
 

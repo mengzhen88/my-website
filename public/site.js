@@ -2,12 +2,12 @@
   const root = document.documentElement;
   const langButtons = [...document.querySelectorAll("[data-lang-select]")];
   const titleByLang = {
-    zh: "YOUR NAME — 个人主页",
-    en: "YOUR NAME — Personal Homepage",
+    zh: "邵梦贞 — 产品设计师",
+    en: "Mengzhen Shao — Product Designer",
   };
   const descriptionByLang = {
-    zh: "体验设计师的个人主页：关于我、偏好与生活瞬间。",
-    en: "An experience designer's personal homepage: facts, favorites, and moments.",
+    zh: "邵梦贞的个人主页：Lark Design · APaaS 产品设计师，6 年产品设计经验。",
+    en: "Mengzhen Shao, Product Designer at Lark Design · APaaS with 6 years of experience.",
   };
 
   const applyLanguage = (lang) => {

@@ -1,98 +1,100 @@
-const facts = [
+const strengths = [
   {
     index: "01",
-    zh: "习惯从一张白纸开始，先问对问题，再寻找答案。",
-    en: "I like to start with a blank page: ask the right question, then find the answer.",
+    zhTitle: "从调研到洞察",
+    enTitle: "Research into insight",
+    zh: "通过用户调研与全链路业务摸底，识别真正影响体验与业务的问题，并提炼成可落地的优化方向。",
+    en: "I combine user research with end-to-end business mapping to identify the problems that truly affect experience and business, then turn them into actionable opportunities.",
   },
   {
     index: "02",
-    zh: "在两种语言、三座城市之间工作与生活。",
-    en: "I have worked and lived across two languages and three cities.",
+    zhTitle: "理解复杂 B 端",
+    enTitle: "Make complexity clear",
+    zh: "经历覆盖工具型产品、数据治理、数据质量与埋点平台，习惯在复杂角色、流程和规则中建立清晰秩序。",
+    en: "My work spans productivity tools, data governance, data quality, and tracking platforms. I bring clarity to complex roles, flows, and rules.",
   },
   {
     index: "03",
-    zh: "周末通常属于咖啡、相机和没有目的地的散步。",
-    en: "Weekends belong to coffee, a camera, and walks without a destination.",
+    zhTitle: "推动 0→1 共创",
+    enTitle: "Build from 0→1",
+    zh: "多次拉齐产品与研发资源，从目标共识、方案共创到落地验证，推动项目从模糊想法走向真实产品。",
+    en: "I align product and engineering teams—from shared goals and co-creation to delivery and validation—to move ideas into real products.",
   },
   {
     index: "04",
-    zh: "正在学习：把短暂的好奇，变成可以持续很久的作品。",
-    en: "Currently learning how to turn brief curiosity into work that lasts.",
+    zhTitle: "自驱，也重视协作",
+    enTitle: "Driven, and collaborative",
+    zh: "主动补齐信息、连接上下游，并在跨部门合作中持续推进，让设计不仅停留在方案，而是产生结果。",
+    en: "I proactively close information gaps, connect stakeholders, and keep cross-functional work moving so design creates outcomes, not just proposals.",
   },
 ];
 
-const recommendations = [
+const career = [
   {
-    eyebrow: "SCREEN",
-    zhTitle: "剧与电影",
-    enTitle: "Films & Series",
-    items: [
-      ["机器人之梦", "Robot Dreams"],
-      ["完美的日子", "Perfect Days"],
-      ["星际牛仔", "Cowboy Bebop"],
-      ["布达佩斯大饭店", "The Grand Budapest Hotel"],
-    ],
+    period: "NOW",
+    place: "LARK DESIGN · APAAS",
+    zhRole: "产品设计师",
+    enRole: "Product Designer",
+    zh: "在平台型产品的真实业务场景中，继续探索复杂系统、AI 能力与用户体验之间更自然的连接方式。",
+    en: "Exploring more natural connections between complex systems, AI capabilities, and user experience in real platform-product scenarios.",
+    tags: ["PLATFORM", "AI", "B2B"],
   },
   {
-    eyebrow: "BOOKS",
-    zhTitle: "书",
-    enTitle: "Books",
-    items: [
-      ["夜晚的潜水艇", "The Submarine at Night"],
-      ["我在北京送快递", "Delivering Packages in Beijing"],
-      ["反脆弱", "Antifragile"],
-      ["中年之路", "The Middle Passage"],
-    ],
+    period: "2022—2026",
+    place: "BYTEDANCE · VOLCENGINE",
+    zhRole: "火山引擎数据平台 · 产品设计",
+    enRole: "Volcengine Data Platform · Product Design",
+    zh: "负责 Gaia 门户与低代码搭建平台、大数据开发治理套件中的治理平台和数据质量平台，以及埋点平台设计，覆盖工具型产品到数据中心复杂 B 端业务的完整链路。2025 年 H1 同时负责需求理解 Agent 项目，积累了 AI 产品设计经验。",
+    en: "Designed Gaia Portal and its low-code builder, data governance and quality products, and a tracking platform—covering the full journey from productivity tools to complex enterprise data-center workflows. In H1 2025, I also designed a requirement-understanding Agent and built hands-on AI product experience.",
+    tags: ["DATA", "GOVERNANCE", "AGENT"],
   },
   {
-    eyebrow: "MUSIC",
-    zhTitle: "音乐",
-    enTitle: "Music",
-    items: [
-      ["陈粒", "Chen Li"],
-      ["坂本龙一", "Ryuichi Sakamoto"],
-      ["草东没有派对", "No Party For Cao Dong"],
-      ["Of Monsters And Men", "Of Monsters And Men"],
-    ],
+    period: "2019—2022",
+    place: "RECRUITMENT PRODUCTS",
+    zhRole: "智联招聘、脉脉 · 产品设计",
+    enRole: "Zhaopin & Maimai · Product Design",
+    zh: "其中约两年聚焦招聘平台，负责促回复率、商业化产品，以及拉新与注册流程的交互链路梳理和优化，持续关注产品体验与用户增长方法。",
+    en: "Spent around two years on recruitment platforms, improving reply rates, commercial products, and acquisition and registration journeys—with a continued focus on product experience and user growth.",
+    tags: ["GROWTH", "COMMERCIAL", "MOBILE"],
   },
 ];
 
-const moments = [
+const lifeMoments = [
   {
     index: "01",
     tone: "photo-tone--one",
-    zh: "海边 · 没有行程的一天",
-    en: "By the sea · A day without plans",
+    zh: "ENFJ · 温暖小太阳",
+    en: "ENFJ · A warm source of energy",
   },
   {
     index: "02",
     tone: "photo-tone--two",
-    zh: "上海 · 深夜散步",
-    en: "Shanghai · A late-night walk",
+    zh: "脱口秀与播客重度爱好者",
+    en: "Deep into comedy and podcasts",
   },
   {
     index: "03",
     tone: "photo-tone--three",
-    zh: "山里 · 追一场日落",
-    en: "In the mountains · Chasing sunset",
+    zh: "健身、徒步，持续充能",
+    en: "Recharged by fitness and hiking",
   },
   {
     index: "04",
     tone: "photo-tone--four",
-    zh: "工作坊 · 一起把问题说清楚",
-    en: "Workshop · Making the question clear",
+    zh: "骑行与滑雪，享受速度",
+    en: "Cycling, skiing, and a little speed",
   },
   {
     index: "05",
     tone: "photo-tone--five",
-    zh: "街角 · 偶然遇见的颜色",
-    en: "Street corner · A color found by chance",
+    zh: "穿搭，也是每天的小创作",
+    en: "Style as a small daily creation",
   },
   {
     index: "06",
     tone: "photo-tone--six",
-    zh: "家里 · 周日下午四点",
-    en: "At home · Sunday, 4 PM",
+    zh: "不设限，也期待认识更多朋友",
+    en: "Open-minded and always glad to meet new people",
   },
 ];
 
@@ -119,13 +121,13 @@ export default function Home() {
       <header className="site-header">
         <div className="nav-shell page-shell">
           <a className="brand" href="#top" aria-label="回到首页">
-            YOUR NAME <span aria-hidden="true">·</span> 2026
+            SHAO MENGZHEN <span aria-hidden="true">·</span> 2026
           </a>
           <nav className="nav-tabs" aria-label="主导航">
             <a href="#about">ABOUT</a>
-            <a href="#facts">FACTS</a>
-            <a href="#recs">REC&nbsp;LIST</a>
-            <a href="#moments">MOMENTS</a>
+            <a href="#career">JOURNEY</a>
+            <a href="#strengths">APPROACH</a>
+            <a href="#life">OFF DUTY</a>
           </nav>
           <div className="lang-switch" role="group" aria-label="语言切换">
             <button type="button" data-lang-select="zh" aria-pressed="true">
@@ -143,8 +145,10 @@ export default function Home() {
           <span className="ornament-cross ornament-cross--one" />
           <span className="ornament-cross ornament-cross--two" />
           <span className="ornament-orbit" />
-          <span className="ornament-signal">ON AIR</span>
-          <span className="ornament-signal ornament-signal--right">SAY HI</span>
+          <span className="ornament-signal">PRODUCT DESIGN</span>
+          <span className="ornament-signal ornament-signal--right">
+            STAY CURIOUS
+          </span>
         </div>
         <p className="eyebrow">ABOUT ME</p>
         <h1 id="hero-title">
@@ -154,38 +158,39 @@ export default function Home() {
         <div className="hero-body" id="about">
           <div className="hero-index" aria-hidden="true">
             <span>00</span>
-            <span>31°13′N</span>
-            <span>121°28′E</span>
+            <span>06 YEARS</span>
+            <span>03+ AT BYTE</span>
+            <span>ENFJ</span>
           </div>
           <div className="hero-copy">
             <p className="hero-lead">
               <LanguagePair
                 zh={
                   <>
-                    我是 <strong>你的名字</strong>，一名体验设计师。
-                    <br />
-                    相信好的设计，让复杂的世界更容易被理解。
+                    我是 <strong>邵梦贞</strong>，现任 Lark Design · APaaS
+                    产品设计师。
+                    <br />6 年产品设计经验，字节司龄 3 年+。
                   </>
                 }
                 en={
                   <>
-                    I&apos;m <strong>Your Name</strong>, an experience designer.
-                    <br />I believe good design makes a complex world easier to
-                    understand.
+                    I&apos;m <strong>Mengzhen Shao</strong>, a Product Designer
+                    at Lark Design · APaaS.
+                    <br />6 years in product design, including 3+ at ByteDance.
                   </>
                 }
               />
             </p>
             <p>
               <LanguagePair
-                zh="我喜欢观察人与技术之间那些细微、真实的感受。从产品策略到体验细节，我在模糊中寻找秩序，也为理性的系统保留一点温度。"
-                en="I observe the subtle, real feelings between people and technology. From product strategy to experience details, I look for order in ambiguity and leave room for warmth in rational systems."
+                zh="学生时期，《简约至上》和《破茧成蝶》让我第一次感受到：凭借洞察与设计改善用户体验、推动业务目标，是一件很了不起的事。六年过去，我依然相信，也希望一直保有这份初心。"
+                en="As a student, books such as Simple and Usable and 破茧成蝶 showed me that insight and design can improve people's experiences while moving a business forward. Six years later, I still believe that—and hope to keep that original conviction."
               />
             </p>
             <p>
               <LanguagePair
-                zh="工作之外，我用散步、阅读和相机认识世界。这里收集一些关于我的小事，也记录那些让我停下来看的瞬间。"
-                en="Beyond work, I understand the world through walking, reading, and a camera. This page collects small facts about me and the moments that make me pause."
+                zh="我擅长通过用户调研和全链路业务摸底找到可落地的机会，并推动跨部门协作。从理解复杂问题，到和产研伙伴一起把 0→1 做成真实产品，是我最享受的过程。"
+                en="I use user research and end-to-end business discovery to uncover actionable opportunities, then drive cross-functional delivery. Turning a complex question into a real 0→1 product with product and engineering partners is the part I enjoy most."
               />
             </p>
             <div className="contact-row" aria-label="联系方式">
@@ -215,8 +220,8 @@ export default function Home() {
                   <LanguagePair zh="飞书二维码待替换" en="Replace with Lark QR" />
                 </div>
               </div>
-              <a className="text-link" href="mailto:hello@yourname.com">
-                EMAIL ↗
+              <a className="text-link" href="#life">
+                <LanguagePair zh="再认识我一点 ↓" en="More about me ↓" />
               </a>
             </div>
           </div>
@@ -225,30 +230,82 @@ export default function Home() {
 
       <section
         className="section page-shell"
-        id="facts"
-        aria-labelledby="facts-title"
+        id="career"
+        aria-labelledby="career-title"
       >
         <div className="section-heading">
           <div>
-            <p className="eyebrow">01 · FUN FACTS</p>
-            <h2 id="facts-title">
-              <LanguagePair zh="一些关于我的小事" en="A few things about me" />
+            <p className="eyebrow">01 · THE ROAD SO FAR</p>
+            <h2 id="career-title">
+              <LanguagePair zh="来时的路" en="The road so far" />
             </h2>
           </div>
           <p className="section-intro">
             <LanguagePair
-              zh="比简历更接近我的四个切片"
-              en="Four fragments closer to me than a résumé"
+              zh="从招聘增长到数据平台，再到 Lark APaaS"
+              en="From recruitment growth to data platforms and Lark APaaS"
+            />
+          </p>
+        </div>
+        <div className="career-list">
+          {career.map((item) => (
+            <article className="career-item" key={item.period}>
+              <div className="career-meta">
+                <time>{item.period}</time>
+                <span>{item.place}</span>
+              </div>
+              <div className="career-content">
+                <h3>
+                  <LanguagePair zh={item.zhRole} en={item.enRole} />
+                </h3>
+                <p>
+                  <LanguagePair zh={item.zh} en={item.en} />
+                </p>
+                <ul className="career-tags" aria-label="领域标签">
+                  {item.tags.map((tag) => (
+                    <li key={tag}>{tag}</li>
+                  ))}
+                </ul>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section
+        className="section page-shell"
+        id="strengths"
+        aria-labelledby="strengths-title"
+      >
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">02 · HOW I WORK</p>
+            <h2 id="strengths-title">
+              <LanguagePair zh="我如何工作" en="How I work" />
+            </h2>
+          </div>
+          <p className="section-intro">
+            <LanguagePair
+              zh="洞察复杂业务，也推动真实改变"
+              en="Understand complexity, then move things forward"
             />
           </p>
         </div>
         <div className="facts-list">
-          {facts.map((fact) => (
-            <article className="fact" key={fact.index}>
-              <span className="fact-index">{fact.index}</span>
-              <p>
-                <LanguagePair zh={fact.zh} en={fact.en} />
-              </p>
+          {strengths.map((strength) => (
+            <article className="fact fact--detailed" key={strength.index}>
+              <span className="fact-index">{strength.index}</span>
+              <div className="fact-content">
+                <h3>
+                  <LanguagePair
+                    zh={strength.zhTitle}
+                    en={strength.enTitle}
+                  />
+                </h3>
+                <p>
+                  <LanguagePair zh={strength.zh} en={strength.en} />
+                </p>
+              </div>
               <span className="fact-mark" aria-hidden="true">
                 ↗
               </span>
@@ -258,76 +315,53 @@ export default function Home() {
       </section>
 
       <section
-        className="section page-shell"
-        id="recs"
-        aria-labelledby="recs-title"
+        className="section page-shell moments-section"
+        id="life"
+        aria-labelledby="life-title"
       >
         <div className="section-heading">
           <div>
-            <p className="eyebrow">02 · RECOMMENDATIONS</p>
-            <h2 id="recs-title">
-              <LanguagePair zh="书影音推荐" en="Things worth sharing" />
+            <p className="eyebrow">03 · OFF DUTY</p>
+            <h2 id="life-title">
+              <LanguagePair zh="工作之外" en="Beyond the brief" />
             </h2>
           </div>
           <p className="section-intro">
             <LanguagePair
-              zh="如果我们品味相似，也许会很聊得来"
-              en="If our taste overlaps, we may have a lot to talk about"
+              zh="中原人的爽朗与细腻，一半思考，一半热闹"
+              en="Straightforward yet thoughtful—equal parts reflection and fun"
             />
           </p>
         </div>
-        <div className="rec-grid">
-          {recommendations.map((rec) => (
-            <article className="rec-card" key={rec.eyebrow}>
-              <p className="eyebrow">{rec.eyebrow}</p>
-              <h3>
-                <LanguagePair zh={rec.zhTitle} en={rec.enTitle} />
-              </h3>
-              <ol>
-                {rec.items.map(([zh, en], index) => (
-                  <li key={zh}>
-                    <span>{String(index + 1).padStart(2, "0")}</span>
-                    <LanguagePair zh={zh} en={en} />
-                  </li>
-                ))}
-              </ol>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section
-        className="section page-shell moments-section"
-        id="moments"
-        aria-labelledby="moments-title"
-      >
-        <div className="section-heading">
-          <div>
-            <p className="eyebrow">03 · MOMENTS</p>
-            <h2 id="moments-title">
-              <LanguagePair zh="这都是我" en="All of this is me" />
-            </h2>
-          </div>
-          <p className="section-intro">
+        <div className="life-intro">
+          <p>
             <LanguagePair
-              zh="点击卡片，看看每个瞬间背后的注脚"
-              en="Flip a card to read the note behind each moment"
+              zh="作为中原人，我既有北方的豪爽，也有南方的细腻。现在是 ENFJ「大剑姐」，也是一个温暖小太阳；可盐可甜，不设限、不局限，希望广结各路好友。"
+              en="Growing up in central China gave me both northern candor and southern sensitivity. I'm an ENFJ protagonist and a warm source of energy—bold or soft, never boxed in, and always happy to make new friends."
+            />
+          </p>
+          <p>
+            <LanguagePair
+              zh="脱口秀和播客让我在轻松与深度之间切换；健身、徒步、骑行、滑雪和穿搭，则是持续给生活充能的方式。希望以后我们可以一起工作，也一起耍。"
+              en="Comedy and podcasts let me move between lightness and deeper thinking. Fitness, hiking, cycling, skiing, and style keep life charged. I hope we get to work together—and have fun together, too."
             />
           </p>
         </div>
         <div className="photo-masonry">
-          {moments.map((moment) => (
+          {lifeMoments.map((moment) => (
             <figure className="photo-item" key={moment.index}>
               <button
                 className="photo-flip"
                 type="button"
                 aria-pressed="false"
-                aria-label={`Moment ${moment.index}`}
+                aria-label={`Off duty ${moment.index}`}
               >
                 <span
                   className={`photo-face photo-face--front ${moment.tone}`}
                 >
-                  <span className="photo-coordinates">MOMENT / {moment.index}</span>
+                  <span className="photo-coordinates">
+                    OFF DUTY / {moment.index}
+                  </span>
                   <span className="photo-aperture" aria-hidden="true" />
                 </span>
                 <span className="photo-face photo-face--back">
@@ -350,11 +384,11 @@ export default function Home() {
 
       <footer className="site-footer">
         <div className="page-shell footer-shell">
-          <p className="footer-brand">YOUR NAME · 2026</p>
+          <p className="footer-brand">SHAO MENGZHEN · 2026</p>
           <p className="footer-quote">
             <LanguagePair
-              zh="世界的有趣，我很好奇。"
-              en={"Curious about the world's wonder."}
+              zh="保持初心，一起工作，也一起耍。"
+              en="Stay true. Work together, have fun together."
             />
           </p>
           <a href="#top">BACK TO TOP ↑</a>
