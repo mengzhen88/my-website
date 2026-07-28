@@ -11,6 +11,9 @@
   --color-obsidian: #171717;
   --color-carbon: #000000;
   --color-signal-red: #e10600;
+  --font-body-sans: "PingFang SC", "Hiragino Sans GB", -apple-system,
+    BlinkMacSystemFont, "Helvetica Neue", "Microsoft YaHei",
+    "Noto Sans CJK SC", sans-serif;
   --font-geist-sans: "Geist Variable", "Avenir Next", "Noto Sans SC Variable",
     "PingFang SC", "Microsoft YaHei", sans-serif;
   --font-geist-mono: "Geist Mono Variable", "Geist Mono", "SFMono-Regular",
@@ -63,7 +66,7 @@ html {
 body {
   background: var(--color-paper-white);
   color: var(--color-obsidian);
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-body-sans);
   font-weight: var(--font-weight-regular);
   margin: 0;
   min-width: 320px;
@@ -504,7 +507,7 @@ html[data-lang="en"] .i18n-en {
 
 .section-intro {
   color: var(--color-stone);
-  font-family: var(--font-wenkai);
+  font-family: var(--font-body-sans);
   font-size: var(--type-body-small);
   line-height: 1.7;
   margin: 0;
@@ -557,7 +560,7 @@ html[data-lang="en"] .i18n-en {
 
 .fact-content p {
   color: var(--color-charcoal);
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-body-sans);
   font-size: var(--type-body);
   line-height: 1.8;
   margin: 0;
@@ -643,7 +646,7 @@ html[data-lang="en"] .i18n-en {
 
 .life-intro p {
   color: var(--color-charcoal);
-  font-family: var(--font-wenkai);
+  font-family: var(--font-body-sans);
   font-size: clamp(var(--type-body), 1.6vw, 20px);
   line-height: 1.9;
   margin: 0;
@@ -909,7 +912,7 @@ html[data-lang="en"] .i18n-en {
 
 .footer-quote {
   color: var(--color-charcoal);
-  font-family: var(--font-wenkai);
+  font-family: var(--font-body-sans);
   font-size: var(--type-body-small);
   letter-spacing: 0;
 }
